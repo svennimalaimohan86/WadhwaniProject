@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3F1FF"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7B73F5"/>
+      <stop offset="100%" stop-color="#635BDB"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" rx="20" fill="url(#aboutGrad)"/>
+
+  <!-- Academic Elements Illustration -->
+  <circle cx="400" cy="300" r="180" fill="#635BDB" fill-opacity="0.05"/>
+  <circle cx="400" cy="300" r="120" fill="#635BDB" fill-opacity="0.08"/>
+
+  <!-- Center Card: FacultyFlow Academic Core -->
+  <rect x="220" y="160" width="360" height="280" rx="16" fill="#FFFFFF" stroke="#EEEEF5" stroke-width="2"/>
+  
+  <rect x="260" y="195" width="50" height="50" rx="12" fill="url(#purpleGrad2)"/>
+  <path d="M285 210L300 217L285 224L270 217L285 210Z" fill="white"/>
+  <path d="M275 222V228C275 231 279 233 285 233C291 233 295 231 295 228V222L285 226L275 222Z" fill="white" fill-opacity="0.8"/>
+
+  <text x="325" y="218" font-family="'Poppins', sans-serif" font-size="18" font-weight="700" fill="#20213A">FacultyFlow</text>
+  <text x="325" y="236" font-family="'Inter', sans-serif" font-size="12" fill="#5F6388">Less Admin • More Education</text>
+
+  <!-- Metric Badges floating -->
+  <rect x="250" y="275" width="300" height="42" rx="8" fill="#F8F9FE" stroke="#EEEEF5"/>
+  <text x="270" y="301" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#20213A">⚡ 74% Reduction in manual tasks</text>
+
+  <rect x="250" y="330" width="300" height="42" rx="8" fill="#F8F9FE" stroke="#EEEEF5"/>
+  <text x="270" y="356" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#20213A">✓ 5.2 Hours saved weekly / faculty</text>
+
+  <rect x="250" y="385" width="300" height="42" rx="8" fill="#F8F9FE" stroke="#EEEEF5"/>
+  <text x="270" y="411" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#20213A">★ 99.8% Automated attendance precision</text>
+</svg>

@@ -1,0 +1,219 @@
+.cta-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.cta-card {
+  position: relative;
+  background: var(--gradient-cta);
+  border-radius: var(--radius-xl);
+  padding: 5rem 3.5rem;
+  overflow: hidden;
+  box-shadow: 0 24px 50px -10px rgba(99, 91, 219, 0.4), 0 10px 20px -5px rgba(32, 33, 58, 0.1);
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Ambient Spheres inside CTA */
+.cta-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  pointer-events: none;
+}
+
+.sphere-1 {
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.15);
+  top: -100px;
+  left: -50px;
+}
+
+.sphere-2 {
+  width: 350px;
+  height: 350px;
+  background: rgba(142, 133, 243, 0.3);
+  bottom: -100px;
+  right: -50px;
+}
+
+.cta-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.cta-content {
+  position: relative;
+  z-index: 2;
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.35rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.5rem;
+  color: #FFFFFF;
+}
+
+.cta-headline {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 800;
+  color: #FFFFFF;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+  letter-spacing: -0.03em;
+}
+
+.cta-description {
+  font-size: var(--font-size-xl);
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+  max-width: 580px;
+}
+
+/* CTA Form */
+.cta-form {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.cta-input-group {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 0.4rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all var(--transition-fast);
+}
+
+.cta-input-group:focus-within {
+  border-color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.cta-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.85rem 1.25rem;
+  color: #FFFFFF;
+  font-size: var(--font-size-sm);
+  font-family: inherit;
+}
+
+.cta-input::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.cta-btn {
+  flex-shrink: 0;
+}
+
+/* Success Box */
+.cta-success-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.cta-success-icon {
+  color: #34D399;
+  flex-shrink: 0;
+}
+
+.cta-success-title {
+  color: #FFFFFF;
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.cta-success-desc {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: var(--font-size-sm);
+}
+
+/* Guarantees */
+.cta-guarantees {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.cta-guarantee-item {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 768px) {
+  .cta-card {
+    padding: 3.5rem 1.75rem;
+  }
+
+  .cta-input-group {
+    flex-direction: column;
+    gap: 0.75rem;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .cta-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--radius-md);
+  }
+
+  .cta-btn {
+    width: 100%;
+  }
+
+  .cta-guarantees {
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+}
+

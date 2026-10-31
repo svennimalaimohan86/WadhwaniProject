@@ -1,0 +1,81 @@
+:root {
+  /* Core Colors */
+  --color-primary: #635BDB;
+  --color-primary-hover: #524AC7;
+  --color-primary-active: #433CAD;
+  --color-primary-light: rgba(99, 91, 219, 0.08);
+  --color-primary-glow: rgba(99, 91, 219, 0.25);
+
+  --color-secondary: #F3F1FF;
+  --color-secondary-hover: #EAE6FF;
+
+  --color-background: #FFFFFF;
+  --color-background-alt: #FAFAFC;
+  --color-card-bg: #FFFFFF;
+
+  --color-text: #20213A;
+  --color-text-muted: #5F6388;
+  --color-text-subtle: #8A8EA8;
+  --color-text-light: #FFFFFF;
+
+  --color-accent: #E8F2FF;
+  --color-accent-blue: #3B82F6;
+  --color-accent-teal: #0D9488;
+  --color-accent-emerald: #10B981;
+  --color-accent-amber: #F59E0B;
+
+  --color-border: #EEEEF5;
+  --color-border-hover: #D8D8E8;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #635BDB 0%, #8E85F3 100%);
+  --gradient-primary-reverse: linear-gradient(135deg, #8E85F3 0%, #635BDB 100%);
+  --gradient-cta: linear-gradient(135deg, #635BDB 0%, #4D45C4 100%);
+  --gradient-text: linear-gradient(135deg, #635BDB 0%, #9F97F6 100%);
+  --gradient-soft: linear-gradient(180deg, #F3F1FF 0%, #FFFFFF 100%);
+  --gradient-badge: linear-gradient(135deg, #F3F1FF 0%, #E8F2FF 100%);
+  --gradient-hero-glow: radial-gradient(circle at 50% 30%, rgba(99, 91, 219, 0.12) 0%, rgba(243, 241, 255, 0.05) 50%, transparent 80%);
+
+  /* Typography */
+  --font-family-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-family-heading: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 2rem;      /* 32px */
+  --font-size-4xl: 2.5rem;    /* 40px */
+  --font-size-5xl: 3.25rem;   /* 52px */
+  --font-size-hero: 4rem;     /* 64px */
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(32, 33, 58, 0.04), 0 1px 2px rgba(32, 33, 58, 0.02);
+  --shadow-md: 0 4px 14px rgba(32, 33, 58, 0.06), 0 2px 4px rgba(32, 33, 58, 0.03);
+  --shadow-lg: 0 12px 28px -6px rgba(32, 33, 58, 0.08), 0 4px 10px rgba(32, 33, 58, 0.03);
+  --shadow-xl: 0 20px 45px -10px rgba(32, 33, 58, 0.12), 0 8px 16px rgba(32, 33, 58, 0.04);
+  --shadow-purple: 0 8px 24px rgba(99, 91, 219, 0.22);
+  --shadow-purple-lg: 0 16px 36px rgba(99, 91, 219, 0.3);
+
+  /* Borders & Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-bounce: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Layout */
+  --max-width: 1200px;
+  --max-width-wide: 1320px;
+  --header-height: 80px;
+}
+

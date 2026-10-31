@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none">
+  <defs>
+    <linearGradient id="logoIconGrad" x1="2" y1="4" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7B73F5"/>
+      <stop offset="100%" stop-color="#635BDB"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon -->
+  <rect x="2" y="4" width="40" height="40" rx="10" fill="url(#logoIconGrad)"/>
+  <path d="M22 14L34 19.5L22 25L10 19.5L22 14Z" fill="#FFFFFF"/>
+  <path d="M14 23.2V28.8C14 31.8 17.5 34 22 34C26.5 34 30 31.8 30 28.8V23.2L22 27L14 23.2Z" fill="#FFFFFF" fill-opacity="0.85"/>
+  <path d="M34 20V27.5" stroke="#E8F2FF" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="34" cy="28.5" r="1.2" fill="#E8F2FF"/>
+  
+  <!-- Text -->
+  <text x="52" y="30" font-family="'Poppins', 'Inter', system-ui, sans-serif" font-size="22" font-weight="700" fill="#20213A" letter-spacing="-0.5">Faculty<tspan fill="#635BDB">Flow</tspan></text>
+</svg>

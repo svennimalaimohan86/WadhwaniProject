@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8F9FE"/>
+      <stop offset="100%" stop-color="#ECEBFC"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7B73F5"/>
+      <stop offset="100%" stop-color="#635BDB"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10" y="-10" width="1220" height="820" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#20213A" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Main Dashboard Canvas -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="50" width="1080" height="700" rx="16" fill="#FFFFFF" stroke="#EEEEF5" stroke-width="1.5"/>
+    
+    <!-- Topbar -->
+    <path d="M60 66C60 57.1634 67.1634 50 76 50H1124C1132.84 50 1140 57.1634 1140 66V100H60V66Z" fill="#FAFAFC" stroke="#EEEEF5"/>
+    <circle cx="85" cy="75" r="5" fill="#FF5F56"/>
+    <circle cx="102" cy="75" r="5" fill="#FFBD2E"/>
+    <circle cx="119" cy="75" r="5" fill="#27C93F"/>
+    
+    <rect x="420" y="65" width="360" height="20" rx="5" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="500" y="79" font-family="'Inter', sans-serif" font-size="11" fill="#8A8EA8">app.facultyflow.edu/faculty/dashboard</text>
+    
+    <!-- Stats Row -->
+    <rect x="90" y="130" width="220" height="110" rx="12" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="110" y="160" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#5F6388">Total Students</text>
+    <text x="110" y="200" font-family="'Poppins', sans-serif" font-size="28" font-weight="700" fill="#20213A">1,428</text>
+    <text x="110" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#10B981">+12.4% vs last term</text>
+
+    <rect x="340" y="130" width="220" height="110" rx="12" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="360" y="160" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#5F6388">Active Classes</text>
+    <text x="360" y="200" font-family="'Poppins', sans-serif" font-size="28" font-weight="700" fill="#20213A">6 Courses</text>
+    <text x="360" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#635BDB">18 lecture hrs/wk</text>
+
+    <rect x="590" y="130" width="220" height="110" rx="12" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="610" y="160" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#5F6388">Attendance Avg</text>
+    <text x="610" y="200" font-family="'Poppins', sans-serif" font-size="28" font-weight="700" fill="#20213A">94.6%</text>
+    <text x="610" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#10B981">Verified attendance</text>
+
+    <rect x="840" y="130" width="220" height="110" rx="12" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="860" y="160" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#5F6388">Performance</text>
+    <text x="860" y="200" font-family="'Poppins', sans-serif" font-size="28" font-weight="700" fill="#635BDB">3.84 GPA</text>
+    <text x="860" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#5F6388">Top 5% Faculty Tier</text>
+
+    <!-- Schedule Section -->
+    <rect x="90" y="270" width="580" height="440" rx="14" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="115" y="305" font-family="'Poppins', sans-serif" font-size="16" font-weight="700" fill="#20213A">Today's Academic Schedule</text>
+    
+    <rect x="115" y="330" width="530" height="70" rx="8" fill="#F8F9FE" stroke="#EEEEF5"/>
+    <text x="135" y="360" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#20213A">CS-301: Advanced Algorithms</text>
+    <text x="135" y="380" font-family="'Inter', sans-serif" font-size="12" fill="#5F6388">09:00 - 10:30 AM • Hall 4B • 72 Students</text>
+    <rect x="560" y="350" width="65" height="24" rx="12" fill="#ECFDF5"/>
+    <text x="575" y="366" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#059669">LIVE</text>
+
+    <rect x="115" y="420" width="530" height="70" rx="8" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="135" y="450" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#20213A">CS-204: Data Structures Lab</text>
+    <text x="135" y="470" font-family="'Inter', sans-serif" font-size="12" fill="#5F6388">11:15 - 12:45 PM • Lab Suite 302 • 48 Students</text>
+    <rect x="540" y="440" width="85" height="24" rx="12" fill="#EFF6FF"/>
+    <text x="552" y="456" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#2563EB">UPCOMING</text>
+
+    <rect x="115" y="510" width="530" height="70" rx="8" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="135" y="540" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#20213A">Curriculum Review Board</text>
+    <text x="135" y="560" font-family="'Inter', sans-serif" font-size="12" fill="#5F6388">02:00 - 03:00 PM • Faculty Boardroom</text>
+    <rect x="535" y="530" width="90" height="24" rx="12" fill="#F3F4F6"/>
+    <text x="545" y="546" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#4B5563">SCHEDULED</text>
+
+    <!-- Right Side Analytics Panel -->
+    <rect x="700" y="270" width="360" height="440" rx="14" fill="#FFFFFF" stroke="#EEEEF5"/>
+    <text x="725" y="305" font-family="'Poppins', sans-serif" font-size="16" font-weight="700" fill="#20213A">Recent Faculty Activity</text>
+
+    <rect x="725" y="330" width="310" height="60" rx="8" fill="#FAFAFC" stroke="#EEEEF5"/>
+    <text x="740" y="355" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#20213A">Assignment 4 Graded</text>
+    <text x="740" y="375" font-family="'Inter', sans-serif" font-size="11" fill="#5F6388">48 evaluated • Avg 88.4%</text>
+
+    <rect x="725" y="405" width="310" height="60" rx="8" fill="#FAFAFC" stroke="#EEEEF5"/>
+    <text x="740" y="430" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#20213A">Attendance Verified CS-301</text>
+    <text x="740" y="450" font-family="'Inter', sans-serif" font-size="11" fill="#5F6388">68/72 turnout • 94.4%</text>
+
+    <rect x="725" y="480" width="310" height="100" rx="8" fill="#F3F1FF" stroke="#E2DCFE"/>
+    <text x="740" y="505" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#635BDB">SIS Synchronization</text>
+    <text x="740" y="525" font-family="'Inter', sans-serif" font-size="11" fill="#5F6388">All student grades and records</text>
+    <text x="740" y="542" font-family="'Inter', sans-serif" font-size="11" fill="#5F6388">synced with Registrar portal.</text>
+    <text x="740" y="565" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#10B981">✓ Verified Synchronized</text>
+  </g>
+</svg>
